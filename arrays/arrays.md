@@ -1,0 +1,1 @@
+This folder contains array manipulation problems from Hacker Rank. Will add problems from other sources, especially LeetCode, as I do them
