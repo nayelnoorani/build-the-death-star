@@ -29,4 +29,34 @@ arr =
  0  0  1  2 4 0
 
  The 16 hour glass sums are:
- -63, -34, 
+ -63, -34, -9, 12, 
+-10,   0, 28, 23, 
+-27, -11, -2, 10, 
+  9,  17, 25, 18
+
+The highest hourglass sum is 28 from the hourglass beginning at row 1, column 2:
+0, 4, 3
+   1
+8, 6, 6
+
+## Function Description
+
+Complete the function hourglassSum.hourglassSum has the following parameter(s):
+
+    int arr[6][6]: an array of integers
+
+Returns
+
+    int: the maximum hourglass sum
+
+Input Format
+
+Each of the 6 lines of inputs contains 6 space-separated integers arr[i][j].
+
+Constraints
+Each [i][j] is between -9 to 9
+All values of i and j between 0 and 5 (inclusive)
+
+Output Format
+
+Print the largest (maximum) hourglass sum found in arr.
