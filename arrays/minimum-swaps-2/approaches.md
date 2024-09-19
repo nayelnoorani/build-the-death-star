@@ -17,7 +17,7 @@ Easier to implement but may not be as efficient as cycle detection.
 
 
 
-1. Cycle Detection Method (Greedy Approach)
+2. Cycle Detection Method (Greedy Approach)
 This is one of the most efficient methods to solve the problem. The idea is based on the fact that the array can be broken down into cycles. By swapping the elements within a cycle, you can sort the cycle with a minimal number of swaps.
 
 Strategy Outline:
@@ -50,6 +50,10 @@ Pros:
 
 Conceptually interesting for those familiar with graph theory.
 Works well in identifying the minimal number of swaps by treating the problem as a permutation cycle problem.
+
+Code in this case looks exactly identical to the cycle detection method, the difference lies only in the conceptual framing
+
+
 4. Heap-Based Approach (Less Efficient)
 A heap (min-heap) could be used to extract the smallest element and place it in its correct position in each step. However, this approach may not be optimal.
 
