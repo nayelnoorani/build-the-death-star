@@ -1,0 +1,37 @@
+import simpy
+import random
+
+def producer(env, buffer, buffer_size):
+    while True:
+        # Wait until there is space in the buffer
+        if len(buffer) >= buffer_size:
+            yield env.timeout(1)  # Do nothing for the next time step
+
+        yield env.timeout(3)  # Produce every 3 time units
+        buffer.append("foo")
+        print(f"Produced foo at {env.now}")
+        print(f"Buffer size: {len(buffer)}")
+
+def consumer(env, buffer):
+    while True:
+        # Wait until there is something in the buffer
+        while len(buffer) == 0:
+            yield env.timeout(1)  # Do nothing for the next time step
+
+        yield env.timeout(random.randint(1, 5))  # Consume every 1-5 time units
+        buffer.pop()
+        print(f"Consumed foo at {env.now}")
+        print(f"Buffer size: {len(buffer)}")
+
+env = simpy.Environment()
+
+# Buffer and events
+buffer = []
+buffer_size = 10
+
+# Add processes
+env.process(producer(env, buffer, buffer_size))
+env.process(consumer(env, buffer))
+
+# Run the simulation
+env.run(until=51)
