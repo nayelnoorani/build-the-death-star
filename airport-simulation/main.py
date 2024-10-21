@@ -72,7 +72,7 @@ def reduce_resources(num_id_checkers, num_personal_checkers):
     return (num_id_checkers, num_personal_checkers)
 
 def increase_resources(num_id_checkers, num_personal_checkers):
-    if num_id_checkers == num_personal_checkers:
+    if num_id_checkers <= num_personal_checkers:
         num_id_checkers += 1
     elif num_id_checkers > num_personal_checkers:
         num_personal_checkers += 1
