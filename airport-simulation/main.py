@@ -1,9 +1,11 @@
 import simpy
 import random
 import numpy as np
+import sys
+from datetime import datetime
 
 # Set seeds for reproducibility
-RANDOM_SEED = 42  # The answer to the Ultimate Question of Life, the Universe, and Everything
+RANDOM_SEED = 420  # The answer to the Ultimate Question of Life, the Universe, and Everything
 
 SIM_TIME = 8 * 60  # in minutes
 PASSENGER_ARRIVAL_RATE = 50  # passengers per minute
@@ -27,6 +29,9 @@ def passenger_process(env):
         id_check_duration = random.expovariate(1/MEAN_ID_CHECK_TIME)
         yield env.timeout(id_check_duration)
         id_check_end = env.now
+        # Print statements to monitor queue lengths for personal checkers
+        # print(f"Current time: {env.now:.2f}")
+        # print(f"Queue lengths {[len(checker.queue) for checker in personal_checkers]}")
     
     shortest_queue = min(personal_checkers, key=lambda x: len(x.queue))
     with shortest_queue.request() as req:
@@ -82,6 +87,12 @@ def print_current_parameters(num_id_checkers, num_personal_checkers, average_wai
     print(f"Average wait time: {average_wait_time:.2f} minutes")
 
 def main():
+# Open log file with timestamp and redirect stdout
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    log_file = open(f'airport-simulation/airport_simulation_{timestamp}.log', 'w')
+    original_stdout = sys.stdout
+    sys.stdout = log_file
+    
     num_id_checkers = PASSENGER_ARRIVAL_RATE // 2
     num_personal_checkers = PASSENGER_ARRIVAL_RATE // 2
     decision_delta = 5 # minutes
@@ -118,6 +129,8 @@ def main():
 
     print_current_parameters(num_id_checkers, num_personal_checkers, average_wait_time)
     print("Thank you for using the Airport Wait Times Simulation!")
-
+    # Restore original stdout and close log file
+    sys.stdout = original_stdout
+    log_file.close()
 if __name__ == "__main__":
     main()
