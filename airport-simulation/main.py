@@ -61,8 +61,6 @@ def run_simulation(num_id_checkers, num_personal_checkers):
     return np.mean(waiting_times) if waiting_times else 0
 
 def run_multiple_simulations(num_id_checkers, num_personal_checkers):
-    random.seed(RANDOM_SEED)
-    np.random.seed(RANDOM_SEED)
     total_wait_time = sum(run_simulation(num_id_checkers, num_personal_checkers) for _ in range(NUM_SIMULATIONS))
     return total_wait_time / NUM_SIMULATIONS
 
@@ -92,7 +90,10 @@ def main():
     log_file = open(f'airport-simulation/airport_simulation_{timestamp}.log', 'w')
     original_stdout = sys.stdout
     sys.stdout = log_file
-    
+
+    random.seed(RANDOM_SEED)
+    np.random.seed(RANDOM_SEED)
+
     num_id_checkers = PASSENGER_ARRIVAL_RATE // 2
     num_personal_checkers = PASSENGER_ARRIVAL_RATE // 2
     decision_delta = 5 # minutes
