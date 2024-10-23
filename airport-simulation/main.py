@@ -4,8 +4,6 @@ import numpy as np
 
 # Set seeds for reproducibility
 RANDOM_SEED = 42  # The answer to the Ultimate Question of Life, the Universe, and Everything
-random.seed(RANDOM_SEED)
-np.random.seed(RANDOM_SEED)
 
 SIM_TIME = 8 * 60  # in minutes
 PASSENGER_ARRIVAL_RATE = 50  # passengers per minute
