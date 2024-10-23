@@ -5,7 +5,7 @@ import sys
 from datetime import datetime
 
 # Set seeds for reproducibility
-RANDOM_SEED = 420  # The answer to the Ultimate Question of Life, the Universe, and Everything
+RANDOM_SEED = 42  # The answer to the Ultimate Question of Life, the Universe, and Everything
 
 SIM_TIME = 8 * 60  # in minutes
 PASSENGER_ARRIVAL_RATE = 50  # passengers per minute
@@ -14,10 +14,14 @@ MIN_PERSONAL_CHECK_TIME = 0.5  # minutes
 MAX_PERSONAL_CHECK_TIME = 1.0  # minutes
 NUM_SIMULATIONS = 10  # Number of simulations to run
 MAX_WAITING_TIME = 15  # in minutes
+PASSENGER_COUNT = 0  # Debugging variable
 
 def generate_passenger_arrivals(env):
+    global PASSENGER_COUNT # Debugging variable
+
     while True:
         yield env.timeout(random.expovariate(PASSENGER_ARRIVAL_RATE))
+        PASSENGER_COUNT += 1 # Debugging variable
         env.process(passenger_process(env))
 
 def passenger_process(env):
@@ -48,7 +52,8 @@ def passenger_process(env):
     waiting_times.append(wait_time)
 
 def run_simulation(num_id_checkers, num_personal_checkers):
-    global id_checkers, personal_checkers, waiting_times
+    global id_checkers, personal_checkers, waiting_times, PASSENGER_COUNT, SIM_TIME
+    PASSENGER_COUNT = 0  # Reset counter at start of each simulation
     
     env = simpy.Environment()
     id_checkers = simpy.Resource(env, capacity=num_id_checkers)
@@ -57,6 +62,7 @@ def run_simulation(num_id_checkers, num_personal_checkers):
         
     env.process(generate_passenger_arrivals(env))
     env.run(until=SIM_TIME)
+    print(f"Total passengers served in this run: {PASSENGER_COUNT}, Average arrival rate: {PASSENGER_COUNT / SIM_TIME}")
     
     return np.mean(waiting_times) if waiting_times else 0
 
