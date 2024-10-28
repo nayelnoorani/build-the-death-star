@@ -1,0 +1,705 @@
+Passenger 1 arrives at 0.07 with queue lengths: 0 0 0 0 0
+Passenger 1 starts ID check at 0.07
+Passenger 2 arrives at 0.14 with queue lengths: 0 0 0 0 0
+Passenger 2 starts ID check at 0.14
+Passenger 3 arrives at 0.32 with queue lengths: 0 0 0 0 0
+Passenger 4 arrives at 0.95 with queue lengths: 1 0 0 0 0
+Passenger 2 ends ID check at 1.14
+Passenger 4 starts ID check at 1.14
+Passenger 5 arrives at 1.21 with queue lengths: 1 0 0 0 0
+Passenger 5 starts ID check at 1.21
+Passenger 6 arrives at 1.31 with queue lengths: 1 0 0 0 0
+Passenger 7 arrives at 1.59 with queue lengths: 1 0 0 0 1
+Passenger 7 starts ID check at 1.59
+Passenger 8 arrives at 1.62 with queue lengths: 1 0 0 0 1
+Passenger 8 starts ID check at 1.62
+Passenger 9 arrives at 1.84 with queue lengths: 1 0 0 0 1
+Passenger 1 ends ID check at 2.07
+Passenger 3 starts ID check at 2.07
+Passenger 10 arrives at 2.28 with queue lengths: 0 0 0 1 1
+Passenger 8 ends ID check at 2.62
+Passenger 11 arrives at 2.70 with queue lengths: 0 0 1 1 1
+Passenger 12 arrives at 2.70 with queue lengths: 1 0 1 1 1
+Passenger 12 starts ID check at 2.70
+Passenger 13 arrives at 2.98 with queue lengths: 1 0 1 1 1
+Passenger 14 arrives at 3.06 with queue lengths: 1 1 1 1 1
+Passenger 3 ends ID check at 3.07
+Passenger 11 starts ID check at 3.07
+Passenger 4 ends ID check at 3.14
+Passenger 10 starts ID check at 3.14
+Passenger 5 ends ID check at 3.21
+Passenger 6 starts ID check at 3.21
+Passenger 15 arrives at 3.35 with queue lengths: 1 1 0 1 0
+Passenger 16 arrives at 3.47 with queue lengths: 1 1 1 1 0
+Passenger 7 ends ID check at 3.59
+Passenger 9 starts ID check at 3.59
+Passenger 17 arrives at 3.62 with queue lengths: 1 1 1 0 1
+Passenger 18 arrives at 3.64 with queue lengths: 1 1 1 1 1
+Passenger 19 arrives at 3.93 with queue lengths: 2 1 1 1 1
+Passenger 11 ends ID check at 4.07
+Passenger 14 starts ID check at 4.07
+Passenger 10 ends ID check at 4.14
+Passenger 15 starts ID check at 4.14
+Passenger 20 arrives at 4.47 with queue lengths: 1 1 0 1 2
+Passenger 21 arrives at 4.65 with queue lengths: 1 1 1 1 2
+Passenger 22 arrives at 4.69 with queue lengths: 2 1 1 1 2
+Passenger 12 ends ID check at 4.70
+Passenger 13 starts ID check at 4.70
+Passenger 6 ends ID check at 5.21
+Passenger 16 starts ID check at 5.21
+Passenger 23 arrives at 5.24 with queue lengths: 2 0 2 1 1
+Passenger 24 arrives at 5.49 with queue lengths: 2 1 2 1 1
+Passenger 25 arrives at 5.58 with queue lengths: 2 1 2 1 2
+Passenger 9 ends ID check at 5.59
+Passenger 17 starts ID check at 5.59
+Passenger 26 arrives at 5.69 with queue lengths: 2 1 2 1 2
+Passenger 13 ends ID check at 5.70
+Passenger 23 starts ID check at 5.70
+Passenger 27 arrives at 6.00 with queue lengths: 2 1 2 1 2
+Passenger 28 arrives at 6.04 with queue lengths: 2 2 2 1 2
+Passenger 14 ends ID check at 6.07
+Passenger 18 starts ID check at 6.07
+Passenger 15 ends ID check at 6.14
+Passenger 20 starts ID check at 6.14
+Passenger 29 arrives at 6.17 with queue lengths: 1 2 1 2 2
+Passenger 30 arrives at 6.21 with queue lengths: 1 2 2 2 2
+Passenger 31 arrives at 6.28 with queue lengths: 2 2 2 2 2
+Passenger 32 arrives at 6.57 with queue lengths: 2 2 3 2 2
+Passenger 17 ends ID check at 6.59
+Passenger 25 starts ID check at 6.59
+Passenger 33 arrives at 6.80 with queue lengths: 2 2 3 2 2
+Passenger 20 ends ID check at 7.14
+Passenger 22 starts ID check at 7.14
+Passenger 16 ends ID check at 7.21
+Passenger 19 starts ID check at 7.21
+Passenger 34 arrives at 7.48 with queue lengths: 2 2 2 2 2
+Passenger 35 arrives at 7.67 with queue lengths: 2 3 2 2 2
+Passenger 23 ends ID check at 7.70
+Passenger 26 starts ID check at 7.70
+Passenger 36 arrives at 7.72 with queue lengths: 3 2 2 2 2
+Passenger 37 arrives at 7.91 with queue lengths: 3 2 2 2 3
+Passenger 38 arrives at 7.93 with queue lengths: 3 2 2 3 3
+Passenger 39 arrives at 7.97 with queue lengths: 3 3 2 3 3
+Passenger 18 ends ID check at 8.07
+Passenger 21 starts ID check at 8.07
+Passenger 40 arrives at 8.08 with queue lengths: 2 3 3 3 3
+Passenger 22 ends ID check at 8.14
+Passenger 29 starts ID check at 8.14
+Passenger 41 arrives at 8.20 with queue lengths: 3 3 2 3 3
+Passenger 19 ends ID check at 8.21
+Passenger 24 starts ID check at 8.21
+Passenger 42 arrives at 8.30 with queue lengths: 3 3 3 3 2
+Passenger 43 arrives at 8.31 with queue lengths: 3 3 3 3 3
+Passenger 44 arrives at 8.35 with queue lengths: 3 3 3 4 3
+Passenger 45 arrives at 8.45 with queue lengths: 3 3 4 4 3
+Passenger 25 ends ID check at 8.59
+Passenger 28 starts ID check at 8.59
+Passenger 46 arrives at 8.70 with queue lengths: 3 3 4 3 4
+Passenger 24 ends ID check at 9.21
+Passenger 33 starts ID check at 9.21
+Passenger 47 arrives at 9.56 with queue lengths: 4 3 4 3 3
+Passenger 26 ends ID check at 9.70
+Passenger 27 starts ID check at 9.70
+Passenger 48 arrives at 9.82 with queue lengths: 4 2 4 4 3
+Passenger 49 arrives at 9.89 with queue lengths: 4 3 4 4 3
+Passenger 50 arrives at 9.91 with queue lengths: 4 3 4 4 4
+Passenger 51 arrives at 9.97 with queue lengths: 4 4 4 4 4
+Passenger 52 arrives at 9.98 with queue lengths: 4 5 4 4 4
+Passenger 53 arrives at 10.03 with queue lengths: 4 5 5 4 4
+Passenger 21 ends ID check at 10.07
+Passenger 30 starts ID check at 10.07
+Passenger 54 arrives at 10.13 with queue lengths: 3 5 5 4 5
+Passenger 29 ends ID check at 10.14
+Passenger 31 starts ID check at 10.14
+Passenger 33 ends ID check at 10.21
+Passenger 36 starts ID check at 10.21
+Passenger 55 arrives at 10.29 with queue lengths: 4 5 4 4 4
+Passenger 56 arrives at 10.33 with queue lengths: 4 5 4 4 5
+Passenger 28 ends ID check at 10.59
+Passenger 32 starts ID check at 10.59
+Passenger 27 ends ID check at 10.70
+Passenger 34 starts ID check at 10.70
+Passenger 57 arrives at 10.72 with queue lengths: 4 4 5 3 5
+Passenger 58 arrives at 10.84 with queue lengths: 4 4 5 4 5
+Passenger 59 arrives at 11.04 with queue lengths: 4 5 5 4 5
+Passenger 30 ends ID check at 11.07
+Passenger 35 starts ID check at 11.07
+Passenger 60 arrives at 11.63 with queue lengths: 4 5 5 4 5
+Passenger 34 ends ID check at 11.70
+Passenger 38 starts ID check at 11.70
+Passenger 61 arrives at 11.75 with queue lengths: 4 4 5 5 5
+Passenger 62 arrives at 11.95 with queue lengths: 5 4 5 5 5
+Passenger 63 arrives at 12.07 with queue lengths: 5 5 5 5 5
+Passenger 31 ends ID check at 12.14
+Passenger 39 starts ID check at 12.14
+Passenger 36 ends ID check at 12.21
+Passenger 42 starts ID check at 12.21
+Passenger 64 arrives at 12.59 with queue lengths: 5 5 5 5 4
+Passenger 32 ends ID check at 12.59
+Passenger 37 starts ID check at 12.59
+Passenger 65 arrives at 12.85 with queue lengths: 5 5 5 4 5
+Passenger 35 ends ID check at 13.07
+Passenger 40 starts ID check at 13.07
+Passenger 42 ends ID check at 13.21
+Passenger 45 starts ID check at 13.21
+Passenger 66 arrives at 13.23 with queue lengths: 4 5 5 5 4
+Passenger 37 ends ID check at 13.59
+Passenger 43 starts ID check at 13.59
+Passenger 38 ends ID check at 13.70
+Passenger 48 starts ID check at 13.70
+Passenger 39 ends ID check at 14.14
+Passenger 41 starts ID check at 14.14
+Passenger 67 arrives at 14.18 with queue lengths: 5 4 4 4 4
+Passenger 43 ends ID check at 14.59
+Passenger 47 starts ID check at 14.59
+Passenger 68 arrives at 14.78 with queue lengths: 5 5 4 3 4
+Passenger 69 arrives at 14.95 with queue lengths: 5 5 4 4 4
+Passenger 40 ends ID check at 15.07
+Passenger 46 starts ID check at 15.07
+Passenger 70 arrives at 15.13 with queue lengths: 4 5 4 5 4
+Passenger 45 ends ID check at 15.21
+Passenger 49 starts ID check at 15.21
+Passenger 71 arrives at 15.37 with queue lengths: 5 5 4 5 3
+Passenger 72 arrives at 15.41 with queue lengths: 5 5 4 5 4
+Passenger 48 ends ID check at 15.70
+Passenger 50 starts ID check at 15.70
+Passenger 73 arrives at 15.95 with queue lengths: 5 4 4 5 5
+Passenger 41 ends ID check at 16.14
+Passenger 44 starts ID check at 16.14
+Passenger 74 arrives at 16.21 with queue lengths: 5 5 3 5 5
+Passenger 75 arrives at 16.21 with queue lengths: 5 5 4 5 5
+Passenger 76 arrives at 16.25 with queue lengths: 5 5 5 5 5
+Passenger 77 arrives at 16.35 with queue lengths: 5 5 5 5 6
+Passenger 78 arrives at 16.48 with queue lengths: 5 6 5 5 6
+Passenger 47 ends ID check at 16.59
+Passenger 57 starts ID check at 16.59
+Passenger 79 arrives at 16.77 with queue lengths: 5 6 5 5 6
+Passenger 80 arrives at 16.90 with queue lengths: 6 6 5 5 6
+Passenger 81 arrives at 17.01 with queue lengths: 6 6 6 5 6
+Passenger 82 arrives at 17.05 with queue lengths: 6 6 6 6 6
+Passenger 46 ends ID check at 17.07
+Passenger 54 starts ID check at 17.07
+Passenger 44 ends ID check at 17.14
+Passenger 52 starts ID check at 17.14
+Passenger 49 ends ID check at 17.21
+Passenger 53 starts ID check at 17.21
+Passenger 83 arrives at 17.23 with queue lengths: 6 6 5 6 5
+Passenger 84 arrives at 17.34 with queue lengths: 6 6 6 6 5
+Passenger 57 ends ID check at 17.59
+Passenger 60 starts ID check at 17.59
+Passenger 50 ends ID check at 17.70
+Passenger 51 starts ID check at 17.70
+Passenger 54 ends ID check at 18.07
+Passenger 59 starts ID check at 18.07
+Passenger 52 ends ID check at 18.14
+Passenger 56 starts ID check at 18.14
+Passenger 53 ends ID check at 18.21
+Passenger 55 starts ID check at 18.21
+Passenger 85 arrives at 18.45 with queue lengths: 5 5 5 5 5
+Passenger 86 arrives at 18.61 with queue lengths: 5 5 6 5 5
+Passenger 87 arrives at 18.63 with queue lengths: 5 5 6 6 5
+Passenger 88 arrives at 18.82 with queue lengths: 5 6 6 6 5
+Passenger 89 arrives at 18.97 with queue lengths: 6 6 6 6 5
+Passenger 90 arrives at 19.08 with queue lengths: 6 6 6 6 6
+Passenger 56 ends ID check at 19.14
+Passenger 63 starts ID check at 19.14
+Passenger 91 arrives at 19.32 with queue lengths: 6 6 5 7 6
+Passenger 92 arrives at 19.47 with queue lengths: 6 6 6 7 6
+Passenger 93 arrives at 19.59 with queue lengths: 6 6 7 7 6
+Passenger 60 ends ID check at 19.59
+Passenger 65 starts ID check at 19.59
+Passenger 94 arrives at 19.63 with queue lengths: 6 6 7 6 7
+Passenger 51 ends ID check at 19.70
+Passenger 58 starts ID check at 19.70
+Passenger 95 arrives at 19.77 with queue lengths: 6 6 7 6 7
+Passenger 96 arrives at 19.88 with queue lengths: 6 6 7 7 7
+Passenger 59 ends ID check at 20.07
+Passenger 61 starts ID check at 20.07
+Passenger 63 ends ID check at 20.14
+Passenger 74 starts ID check at 20.14
+Passenger 55 ends ID check at 20.21
+Passenger 64 starts ID check at 20.21
+Passenger 97 arrives at 20.33 with queue lengths: 5 7 6 7 6
+Passenger 98 arrives at 20.40 with queue lengths: 6 7 6 7 6
+Passenger 99 arrives at 20.87 with queue lengths: 7 7 6 7 6
+Passenger 61 ends ID check at 21.07
+Passenger 66 starts ID check at 21.07
+Passenger 74 ends ID check at 21.14
+Passenger 75 starts ID check at 21.14
+Passenger 100 arrives at 21.21 with queue lengths: 6 7 5 7 7
+Passenger 101 arrives at 21.29 with queue lengths: 6 7 6 7 7
+Passenger 102 arrives at 21.34 with queue lengths: 7 7 6 7 7
+Passenger 103 arrives at 21.46 with queue lengths: 7 7 7 7 7
+Passenger 65 ends ID check at 21.59
+Passenger 68 starts ID check at 21.59
+Passenger 58 ends ID check at 21.70
+Passenger 62 starts ID check at 21.70
+Passenger 104 arrives at 21.90 with queue lengths: 7 6 7 7 7
+Passenger 105 arrives at 22.14 with queue lengths: 7 7 7 7 7
+Passenger 64 ends ID check at 22.21
+Passenger 71 starts ID check at 22.21
+Passenger 106 arrives at 22.39 with queue lengths: 8 7 7 7 6
+Passenger 107 arrives at 22.39 with queue lengths: 8 7 7 7 7
+Passenger 108 arrives at 22.47 with queue lengths: 8 7 8 7 7
+Passenger 109 arrives at 22.48 with queue lengths: 8 7 8 8 7
+Passenger 68 ends ID check at 22.59
+Passenger 69 starts ID check at 22.59
+Passenger 110 arrives at 22.60 with queue lengths: 8 8 8 7 7
+Passenger 111 arrives at 22.78 with queue lengths: 8 8 8 7 8
+Passenger 112 arrives at 22.79 with queue lengths: 8 8 8 8 8
+Passenger 113 arrives at 23.01 with queue lengths: 8 9 8 8 8
+Passenger 66 ends ID check at 23.07
+Passenger 70 starts ID check at 23.07
+Passenger 75 ends ID check at 23.14
+Passenger 80 starts ID check at 23.14
+Passenger 114 arrives at 23.18 with queue lengths: 8 9 7 8 8
+Passenger 115 arrives at 23.41 with queue lengths: 8 9 8 8 8
+Passenger 116 arrives at 23.57 with queue lengths: 8 9 8 9 8
+Passenger 69 ends ID check at 23.59
+Passenger 78 starts ID check at 23.59
+Passenger 117 arrives at 23.60 with queue lengths: 8 9 9 8 8
+Passenger 118 arrives at 23.62 with queue lengths: 8 9 9 9 8
+Passenger 119 arrives at 23.68 with queue lengths: 9 9 9 9 8
+Passenger 62 ends ID check at 23.70
+Passenger 67 starts ID check at 23.70
+Passenger 120 arrives at 23.71 with queue lengths: 9 8 9 9 9
+Passenger 70 ends ID check at 24.07
+Passenger 79 starts ID check at 24.07
+Passenger 71 ends ID check at 24.21
+Passenger 72 starts ID check at 24.21
+Passenger 121 arrives at 24.54 with queue lengths: 8 9 9 9 8
+Passenger 122 arrives at 24.58 with queue lengths: 8 9 9 9 9
+Passenger 78 ends ID check at 24.59
+Passenger 81 starts ID check at 24.59
+Passenger 67 ends ID check at 24.70
+Passenger 73 starts ID check at 24.70
+Passenger 123 arrives at 24.73 with queue lengths: 9 8 9 8 9
+Passenger 80 ends ID check at 25.14
+Passenger 83 starts ID check at 25.14
+Passenger 124 arrives at 25.20 with queue lengths: 9 9 8 8 9
+Passenger 73 ends ID check at 25.70
+Passenger 77 starts ID check at 25.70
+Passenger 125 arrives at 25.84 with queue lengths: 9 8 9 8 9
+Passenger 79 ends ID check at 26.07
+Passenger 82 starts ID check at 26.07
+Passenger 72 ends ID check at 26.21
+Passenger 76 starts ID check at 26.21
+Passenger 126 arrives at 26.42 with queue lengths: 8 8 9 9 8
+Passenger 81 ends ID check at 26.59
+Passenger 86 starts ID check at 26.59
+Passenger 127 arrives at 26.81 with queue lengths: 9 8 9 8 8
+Passenger 128 arrives at 27.12 with queue lengths: 9 8 9 8 9
+Passenger 83 ends ID check at 27.14
+Passenger 85 starts ID check at 27.14
+Passenger 129 arrives at 27.16 with queue lengths: 9 9 8 8 9
+Passenger 130 arrives at 27.29 with queue lengths: 9 9 8 9 9
+Passenger 86 ends ID check at 27.59
+Passenger 90 starts ID check at 27.59
+Passenger 131 arrives at 27.65 with queue lengths: 9 9 9 8 9
+Passenger 132 arrives at 27.66 with queue lengths: 9 9 9 9 9
+Passenger 77 ends ID check at 27.70
+Passenger 87 starts ID check at 27.70
+Passenger 133 arrives at 27.71 with queue lengths: 9 8 9 10 9
+Passenger 134 arrives at 27.74 with queue lengths: 9 9 9 10 9
+Passenger 135 arrives at 27.82 with queue lengths: 9 9 9 10 10
+Passenger 136 arrives at 27.98 with queue lengths: 9 10 9 10 10
+Passenger 137 arrives at 28.03 with queue lengths: 10 10 9 10 10
+Passenger 82 ends ID check at 28.07
+Passenger 88 starts ID check at 28.07
+Passenger 138 arrives at 28.17 with queue lengths: 9 10 10 10 10
+Passenger 139 arrives at 28.19 with queue lengths: 10 10 10 10 10
+Passenger 76 ends ID check at 28.21
+Passenger 84 starts ID check at 28.21
+Passenger 90 ends ID check at 28.59
+Passenger 95 starts ID check at 28.59
+Passenger 87 ends ID check at 28.70
+Passenger 94 starts ID check at 28.70
+Passenger 140 arrives at 28.88 with queue lengths: 10 9 10 9 10
+Passenger 88 ends ID check at 29.07
+Passenger 97 starts ID check at 29.07
+Passenger 141 arrives at 29.09 with queue lengths: 9 10 10 9 10
+Passenger 85 ends ID check at 29.14
+Passenger 91 starts ID check at 29.14
+Passenger 84 ends ID check at 29.21
+Passenger 89 starts ID check at 29.21
+Passenger 142 arrives at 29.35 with queue lengths: 10 10 9 9 9
+Passenger 143 arrives at 29.37 with queue lengths: 10 10 10 9 9
+Passenger 144 arrives at 29.56 with queue lengths: 10 10 10 9 10
+Passenger 95 ends ID check at 29.59
+Passenger 103 starts ID check at 29.59
+Passenger 145 arrives at 29.61 with queue lengths: 10 10 10 9 10
+Passenger 94 ends ID check at 29.70
+Passenger 96 starts ID check at 29.70
+Passenger 146 arrives at 29.80 with queue lengths: 10 9 10 10 10
+Passenger 147 arrives at 29.83 with queue lengths: 10 10 10 10 10
+Passenger 97 ends ID check at 30.07
+Passenger 98 starts ID check at 30.07
+Passenger 91 ends ID check at 30.14
+Passenger 92 starts ID check at 30.14
+Passenger 148 arrives at 30.15 with queue lengths: 9 10 9 10 11
+Passenger 89 ends ID check at 30.21
+Passenger 93 starts ID check at 30.21
+Passenger 149 arrives at 30.54 with queue lengths: 10 10 9 10 10
+Passenger 103 ends ID check at 30.59
+Passenger 108 starts ID check at 30.59
+Passenger 150 arrives at 30.64 with queue lengths: 10 10 10 9 10
+Passenger 151 arrives at 30.64 with queue lengths: 10 10 10 10 10
+Passenger 96 ends ID check at 30.70
+Passenger 104 starts ID check at 30.70
+Passenger 152 arrives at 30.80 with queue lengths: 10 9 11 10 10
+Passenger 153 arrives at 30.90 with queue lengths: 10 10 11 10 10
+Passenger 98 ends ID check at 31.07
+Passenger 101 starts ID check at 31.07
+Passenger 154 arrives at 31.15 with queue lengths: 9 11 11 10 10
+Passenger 155 arrives at 31.34 with queue lengths: 10 11 11 10 10
+Passenger 156 arrives at 31.56 with queue lengths: 11 11 11 10 10
+Passenger 104 ends ID check at 31.70
+Passenger 109 starts ID check at 31.70
+Passenger 157 arrives at 31.73 with queue lengths: 11 10 11 11 10
+Passenger 92 ends ID check at 32.14
+Passenger 100 starts ID check at 32.14
+Passenger 93 ends ID check at 32.21
+Passenger 99 starts ID check at 32.21
+Passenger 158 arrives at 32.31 with queue lengths: 11 10 10 11 10
+Passenger 159 arrives at 32.54 with queue lengths: 11 11 10 11 10
+Passenger 108 ends ID check at 32.59
+Passenger 111 starts ID check at 32.59
+Passenger 160 arrives at 32.65 with queue lengths: 11 11 10 10 11
+Passenger 161 arrives at 32.65 with queue lengths: 11 11 10 11 11
+Passenger 109 ends ID check at 32.70
+Passenger 112 starts ID check at 32.70
+Passenger 162 arrives at 32.71 with queue lengths: 11 10 11 11 11
+Passenger 163 arrives at 32.72 with queue lengths: 11 11 11 11 11
+Passenger 164 arrives at 32.86 with queue lengths: 11 11 11 12 11
+Passenger 101 ends ID check at 33.07
+Passenger 105 starts ID check at 33.07
+Passenger 100 ends ID check at 33.14
+Passenger 102 starts ID check at 33.14
+Passenger 99 ends ID check at 33.21
+Passenger 106 starts ID check at 33.21
+Passenger 165 arrives at 33.23 with queue lengths: 10 11 11 12 10
+Passenger 166 arrives at 33.33 with queue lengths: 11 11 11 12 10
+Passenger 167 arrives at 33.51 with queue lengths: 11 11 11 12 11
+Passenger 168 arrives at 33.54 with queue lengths: 11 12 11 12 11
+Passenger 169 arrives at 33.62 with queue lengths: 11 12 11 12 12
+Passenger 112 ends ID check at 33.70
+Passenger 120 starts ID check at 33.70
+Passenger 170 arrives at 33.75 with queue lengths: 11 11 12 12 12
+Passenger 171 arrives at 34.14 with queue lengths: 11 12 12 12 12
+Passenger 172 arrives at 34.21 with queue lengths: 12 12 12 12 12
+Passenger 106 ends ID check at 34.21
+Passenger 110 starts ID check at 34.21
+Passenger 111 ends ID check at 34.59
+Passenger 115 starts ID check at 34.59
+Passenger 173 arrives at 34.66 with queue lengths: 12 12 13 11 11
+Passenger 174 arrives at 34.72 with queue lengths: 12 12 13 12 11
+Passenger 175 arrives at 34.82 with queue lengths: 12 12 13 12 12
+Passenger 176 arrives at 34.92 with queue lengths: 13 12 13 12 12
+Passenger 105 ends ID check at 35.07
+Passenger 113 starts ID check at 35.07
+Passenger 102 ends ID check at 35.14
+Passenger 107 starts ID check at 35.14
+Passenger 177 arrives at 35.51 with queue lengths: 12 12 12 12 13
+Passenger 115 ends ID check at 35.59
+Passenger 117 starts ID check at 35.59
+Passenger 120 ends ID check at 35.70
+Passenger 123 starts ID check at 35.70
+Passenger 178 arrives at 35.83 with queue lengths: 13 11 12 11 13
+Passenger 179 arrives at 35.86 with queue lengths: 13 11 12 12 13
+Passenger 180 arrives at 36.03 with queue lengths: 13 12 12 12 13
+Passenger 113 ends ID check at 36.07
+Passenger 118 starts ID check at 36.07
+Passenger 181 arrives at 36.15 with queue lengths: 12 12 12 13 13
+Passenger 110 ends ID check at 36.21
+Passenger 119 starts ID check at 36.21
+Passenger 182 arrives at 36.41 with queue lengths: 12 12 13 13 12
+Passenger 183 arrives at 36.49 with queue lengths: 12 13 13 13 12
+Passenger 184 arrives at 36.68 with queue lengths: 12 13 13 13 13
+Passenger 123 ends ID check at 36.70
+Passenger 128 starts ID check at 36.70
+Passenger 185 arrives at 36.74 with queue lengths: 13 12 13 13 13
+Passenger 186 arrives at 36.85 with queue lengths: 13 13 13 13 13
+Passenger 187 arrives at 37.00 with queue lengths: 13 14 13 13 13
+Passenger 188 arrives at 37.03 with queue lengths: 13 14 13 13 14
+Passenger 118 ends ID check at 37.07
+Passenger 122 starts ID check at 37.07
+Passenger 107 ends ID check at 37.14
+Passenger 114 starts ID check at 37.14
+Passenger 189 arrives at 37.31 with queue lengths: 12 14 12 14 14
+Passenger 190 arrives at 37.50 with queue lengths: 13 14 12 14 14
+Passenger 117 ends ID check at 37.59
+Passenger 125 starts ID check at 37.59
+Passenger 191 arrives at 37.69 with queue lengths: 13 14 13 13 14
+Passenger 128 ends ID check at 37.70
+Passenger 133 starts ID check at 37.70
+Passenger 192 arrives at 37.83 with queue lengths: 13 13 14 13 14
+Passenger 193 arrives at 37.94 with queue lengths: 13 14 14 13 14
+Passenger 122 ends ID check at 38.07
+Passenger 126 starts ID check at 38.07
+Passenger 194 arrives at 38.19 with queue lengths: 13 14 14 13 14
+Passenger 119 ends ID check at 38.21
+Passenger 121 starts ID check at 38.21
+Passenger 133 ends ID check at 38.70
+Passenger 135 starts ID check at 38.70
+Passenger 195 arrives at 38.80 with queue lengths: 14 13 14 13 13
+Passenger 196 arrives at 38.85 with queue lengths: 14 13 14 14 13
+Passenger 126 ends ID check at 39.07
+Passenger 136 starts ID check at 39.07
+Passenger 114 ends ID check at 39.14
+Passenger 116 starts ID check at 39.14
+Passenger 121 ends ID check at 39.21
+Passenger 127 starts ID check at 39.21
+Passenger 197 arrives at 39.31 with queue lengths: 13 13 13 14 13
+Passenger 198 arrives at 39.41 with queue lengths: 14 13 13 14 13
+Passenger 125 ends ID check at 39.59
+Passenger 129 starts ID check at 39.59
+Passenger 199 arrives at 39.64 with queue lengths: 14 13 14 13 13
+Passenger 200 arrives at 39.96 with queue lengths: 14 14 14 13 13
+Passenger 127 ends ID check at 40.21
+Passenger 134 starts ID check at 40.21
+Passenger 201 arrives at 40.40 with queue lengths: 14 14 14 14 12
+Passenger 202 arrives at 40.46 with queue lengths: 14 14 14 14 13
+Passenger 129 ends ID check at 40.59
+Passenger 131 starts ID check at 40.59
+Passenger 203 arrives at 40.69 with queue lengths: 14 14 14 13 14
+Passenger 135 ends ID check at 40.70
+Passenger 140 starts ID check at 40.70
+Passenger 204 arrives at 40.75 with queue lengths: 14 13 14 14 14
+Passenger 136 ends ID check at 41.07
+Passenger 138 starts ID check at 41.07
+Passenger 116 ends ID check at 41.14
+Passenger 124 starts ID check at 41.14
+Passenger 134 ends ID check at 41.21
+Passenger 139 starts ID check at 41.21
+Passenger 205 arrives at 41.27 with queue lengths: 13 14 13 14 13
+Passenger 131 ends ID check at 41.59
+Passenger 132 starts ID check at 41.59
+Passenger 206 arrives at 41.65 with queue lengths: 13 14 13 13 14
+Passenger 140 ends ID check at 41.70
+Passenger 146 starts ID check at 41.70
+Passenger 207 arrives at 41.87 with queue lengths: 13 13 13 14 14
+Passenger 208 arrives at 41.89 with queue lengths: 13 14 13 14 14
+Passenger 209 arrives at 42.10 with queue lengths: 13 14 14 14 14
+Passenger 124 ends ID check at 42.14
+Passenger 130 starts ID check at 42.14
+Passenger 139 ends ID check at 42.21
+Passenger 143 starts ID check at 42.21
+Passenger 210 arrives at 42.29 with queue lengths: 14 14 13 14 13
+Passenger 211 arrives at 42.44 with queue lengths: 14 14 13 14 14
+Passenger 212 arrives at 42.61 with queue lengths: 14 14 14 14 14
+Passenger 138 ends ID check at 43.07
+Passenger 141 starts ID check at 43.07
+Passenger 143 ends ID check at 43.21
+Passenger 147 starts ID check at 43.21
+Passenger 213 arrives at 43.44 with queue lengths: 13 14 14 15 13
+Passenger 214 arrives at 43.48 with queue lengths: 14 14 14 15 13
+Passenger 132 ends ID check at 43.59
+Passenger 144 starts ID check at 43.59
+Passenger 146 ends ID check at 43.70
+Passenger 152 starts ID check at 43.70
+Passenger 215 arrives at 43.71 with queue lengths: 14 13 14 14 14
+Passenger 216 arrives at 43.71 with queue lengths: 14 14 14 14 14
+Passenger 217 arrives at 43.79 with queue lengths: 14 14 15 14 14
+Passenger 218 arrives at 43.81 with queue lengths: 14 15 15 14 14
+Passenger 219 arrives at 44.10 with queue lengths: 14 15 15 15 14
+Passenger 130 ends ID check at 44.14
+Passenger 137 starts ID check at 44.14
+Passenger 147 ends ID check at 44.21
+Passenger 157 starts ID check at 44.21
+Passenger 220 arrives at 44.36 with queue lengths: 15 15 14 15 13
+Passenger 221 arrives at 44.36 with queue lengths: 15 15 14 15 14
+Passenger 222 arrives at 44.40 with queue lengths: 15 15 14 15 15
+Passenger 223 arrives at 44.49 with queue lengths: 15 15 15 15 15
+Passenger 152 ends ID check at 44.70
+Passenger 153 starts ID check at 44.70
+Passenger 224 arrives at 44.77 with queue lengths: 15 15 15 15 15
+Passenger 225 arrives at 44.78 with queue lengths: 15 15 16 15 15
+Passenger 226 arrives at 45.00 with queue lengths: 15 15 16 16 15
+Passenger 141 ends ID check at 45.07
+Passenger 148 starts ID check at 45.07
+Passenger 227 arrives at 45.14 with queue lengths: 15 15 16 16 15
+Passenger 157 ends ID check at 45.21
+Passenger 159 starts ID check at 45.21
+Passenger 228 arrives at 45.56 with queue lengths: 15 16 16 16 14
+Passenger 144 ends ID check at 45.59
+Passenger 145 starts ID check at 45.59
+Passenger 153 ends ID check at 45.70
+Passenger 158 starts ID check at 45.70
+Passenger 229 arrives at 45.88 with queue lengths: 15 15 16 15 15
+Passenger 230 arrives at 46.00 with queue lengths: 15 15 16 15 16
+Passenger 231 arrives at 46.04 with queue lengths: 16 15 16 15 16
+Passenger 148 ends ID check at 46.07
+Passenger 154 starts ID check at 46.07
+Passenger 137 ends ID check at 46.14
+Passenger 142 starts ID check at 46.14
+Passenger 232 arrives at 46.20 with queue lengths: 15 16 15 15 16
+Passenger 145 ends ID check at 46.59
+Passenger 150 starts ID check at 46.59
+Passenger 233 arrives at 46.84 with queue lengths: 15 16 15 15 16
+Passenger 234 arrives at 46.87 with queue lengths: 15 16 16 15 16
+Passenger 235 arrives at 46.98 with queue lengths: 15 16 16 16 16
+Passenger 236 arrives at 47.00 with queue lengths: 16 16 16 16 16
+Passenger 237 arrives at 47.06 with queue lengths: 16 16 16 16 17
+Passenger 154 ends ID check at 47.07
+Passenger 155 starts ID check at 47.07
+Passenger 159 ends ID check at 47.21
+Passenger 166 starts ID check at 47.21
+Passenger 238 arrives at 47.31 with queue lengths: 15 17 16 16 16
+Passenger 239 arrives at 47.53 with queue lengths: 16 17 16 16 16
+Passenger 240 arrives at 47.55 with queue lengths: 16 17 16 16 17
+Passenger 150 ends ID check at 47.59
+Passenger 156 starts ID check at 47.59
+Passenger 241 arrives at 47.62 with queue lengths: 16 17 17 15 17
+Passenger 242 arrives at 47.64 with queue lengths: 16 17 17 16 17
+Passenger 158 ends ID check at 47.70
+Passenger 162 starts ID check at 47.70
+Passenger 243 arrives at 47.71 with queue lengths: 16 16 17 17 17
+Passenger 244 arrives at 47.80 with queue lengths: 17 16 17 17 17
+Passenger 155 ends ID check at 48.07
+Passenger 165 starts ID check at 48.07
+Passenger 142 ends ID check at 48.14
+Passenger 149 starts ID check at 48.14
+Passenger 166 ends ID check at 48.21
+Passenger 168 starts ID check at 48.21
+Passenger 162 ends ID check at 48.70
+Passenger 167 starts ID check at 48.70
+Passenger 165 ends ID check at 49.07
+Passenger 171 starts ID check at 49.07
+Passenger 149 ends ID check at 49.14
+Passenger 151 starts ID check at 49.14
+Passenger 168 ends ID check at 49.21
+Passenger 174 starts ID check at 49.21
+Passenger 245 arrives at 49.35 with queue lengths: 15 16 15 17 15
+Passenger 246 arrives at 49.36 with queue lengths: 15 16 16 17 15
+Passenger 156 ends ID check at 49.59
+Passenger 160 starts ID check at 49.59
+Passenger 247 arrives at 49.68 with queue lengths: 16 16 16 16 15
+Passenger 167 ends ID check at 49.70
+Passenger 170 starts ID check at 49.70
+Passenger 248 arrives at 49.83 with queue lengths: 16 15 16 16 16
+Passenger 174 ends ID check at 50.21
+Passenger 176 starts ID check at 50.21
+Passenger 249 arrives at 50.25 with queue lengths: 16 16 16 16 15
+Passenger 250 arrives at 50.34 with queue lengths: 16 16 16 16 16
+Passenger 251 arrives at 50.54 with queue lengths: 16 16 16 16 17
+Passenger 160 ends ID check at 50.59
+Passenger 163 starts ID check at 50.59
+Passenger 252 arrives at 50.87 with queue lengths: 16 16 17 15 17
+Passenger 253 arrives at 50.94 with queue lengths: 16 16 17 16 17
+Passenger 171 ends ID check at 51.07
+Passenger 175 starts ID check at 51.07
+Passenger 151 ends ID check at 51.14
+Passenger 161 starts ID check at 51.14
+Passenger 176 ends ID check at 51.21
+Passenger 183 starts ID check at 51.21
+Passenger 170 ends ID check at 51.70
+Passenger 179 starts ID check at 51.70
+Passenger 254 arrives at 51.74 with queue lengths: 16 15 16 16 16
+Passenger 255 arrives at 51.87 with queue lengths: 16 16 16 16 16
+Passenger 256 arrives at 52.01 with queue lengths: 16 16 16 16 17
+Passenger 175 ends ID check at 52.07
+Passenger 177 starts ID check at 52.07
+Passenger 257 arrives at 52.09 with queue lengths: 15 17 16 16 17
+Passenger 161 ends ID check at 52.14
+Passenger 164 starts ID check at 52.14
+Passenger 258 arrives at 52.18 with queue lengths: 16 17 15 16 17
+Passenger 259 arrives at 52.26 with queue lengths: 16 17 16 16 17
+Passenger 163 ends ID check at 52.59
+Passenger 173 starts ID check at 52.59
+Passenger 260 arrives at 52.68 with queue lengths: 16 17 16 16 17
+Passenger 179 ends ID check at 52.70
+Passenger 182 starts ID check at 52.70
+Passenger 261 arrives at 52.71 with queue lengths: 16 16 17 16 17
+Passenger 262 arrives at 52.72 with queue lengths: 17 16 17 16 17
+Passenger 263 arrives at 52.81 with queue lengths: 17 16 17 17 17
+Passenger 264 arrives at 52.98 with queue lengths: 17 17 17 17 17
+Passenger 177 ends ID check at 53.07
+Passenger 184 starts ID check at 53.07
+Passenger 265 arrives at 53.14 with queue lengths: 16 17 17 18 17
+Passenger 183 ends ID check at 53.21
+Passenger 187 starts ID check at 53.21
+Passenger 266 arrives at 53.65 with queue lengths: 17 17 17 18 16
+Passenger 267 arrives at 53.95 with queue lengths: 17 17 17 18 17
+Passenger 184 ends ID check at 54.07
+Passenger 189 starts ID check at 54.07
+Passenger 164 ends ID check at 54.14
+Passenger 169 starts ID check at 54.14
+Passenger 268 arrives at 54.46 with queue lengths: 16 18 16 18 17
+Passenger 173 ends ID check at 54.59
+Passenger 178 starts ID check at 54.59
+Passenger 182 ends ID check at 54.70
+Passenger 185 starts ID check at 54.70
+Passenger 269 arrives at 55.01 with queue lengths: 16 17 17 17 17
+Passenger 189 ends ID check at 55.07
+Passenger 193 starts ID check at 55.07
+Passenger 270 arrives at 55.10 with queue lengths: 16 17 17 17 17
+Passenger 169 ends ID check at 55.14
+Passenger 172 starts ID check at 55.14
+Passenger 271 arrives at 55.15 with queue lengths: 17 17 16 17 17
+Passenger 187 ends ID check at 55.21
+Passenger 196 starts ID check at 55.21
+Passenger 272 arrives at 55.38 with queue lengths: 17 17 17 17 16
+Passenger 273 arrives at 55.48 with queue lengths: 17 17 17 17 17
+Passenger 274 arrives at 55.50 with queue lengths: 17 17 18 17 17
+Passenger 275 arrives at 55.55 with queue lengths: 17 17 18 17 18
+Passenger 178 ends ID check at 55.59
+Passenger 180 starts ID check at 55.59
+Passenger 276 arrives at 56.04 with queue lengths: 17 17 18 17 18
+Passenger 277 arrives at 56.06 with queue lengths: 18 17 18 17 18
+Passenger 278 arrives at 56.08 with queue lengths: 18 17 18 18 18
+Passenger 279 arrives at 56.11 with queue lengths: 18 18 18 18 18
+Passenger 280 arrives at 56.11 with queue lengths: 19 18 18 18 18
+Passenger 172 ends ID check at 56.14
+Passenger 181 starts ID check at 56.14
+Passenger 281 arrives at 56.16 with queue lengths: 19 18 18 18 18
+Passenger 196 ends ID check at 56.21
+Passenger 201 starts ID check at 56.21
+Passenger 282 arrives at 56.27 with queue lengths: 19 19 18 18 17
+Passenger 283 arrives at 56.40 with queue lengths: 19 19 18 18 18
+Passenger 284 arrives at 56.47 with queue lengths: 19 19 18 18 19
+Passenger 285 arrives at 56.51 with queue lengths: 19 19 19 18 19
+Passenger 180 ends ID check at 56.59
+Passenger 188 starts ID check at 56.59
+Passenger 185 ends ID check at 56.70
+Passenger 186 starts ID check at 56.70
+Passenger 286 arrives at 56.80 with queue lengths: 19 18 19 18 19
+Passenger 287 arrives at 56.81 with queue lengths: 19 18 19 19 19
+Passenger 288 arrives at 56.88 with queue lengths: 19 19 19 19 19
+Passenger 289 arrives at 56.99 with queue lengths: 19 20 19 19 19
+Passenger 193 ends ID check at 57.07
+Passenger 194 starts ID check at 57.07
+Passenger 201 ends ID check at 57.21
+Passenger 202 starts ID check at 57.21
+Passenger 290 arrives at 57.37 with queue lengths: 18 20 19 20 18
+Passenger 186 ends ID check at 57.70
+Passenger 192 starts ID check at 57.70
+Passenger 291 arrives at 57.72 with queue lengths: 18 19 19 20 19
+Passenger 292 arrives at 57.97 with queue lengths: 19 19 19 20 19
+Passenger 293 arrives at 57.98 with queue lengths: 19 19 20 20 19
+Passenger 181 ends ID check at 58.14
+Passenger 190 starts ID check at 58.14
+Passenger 294 arrives at 58.17 with queue lengths: 19 19 19 20 20
+Passenger 295 arrives at 58.19 with queue lengths: 19 20 19 20 20
+Passenger 188 ends ID check at 58.59
+Passenger 195 starts ID check at 58.59
+Passenger 296 arrives at 58.96 with queue lengths: 19 20 20 19 20
+Passenger 297 arrives at 59.06 with queue lengths: 20 20 20 19 20
+Passenger 194 ends ID check at 59.07
+Passenger 197 starts ID check at 59.07
+Passenger 298 arrives at 59.18 with queue lengths: 19 20 20 20 20
+Passenger 202 ends ID check at 59.21
+Passenger 205 starts ID check at 59.21
+Passenger 299 arrives at 59.32 with queue lengths: 20 20 20 20 19
+Passenger 300 arrives at 59.48 with queue lengths: 20 20 20 20 20
+Passenger 195 ends ID check at 59.59
+Passenger 200 starts ID check at 59.59
+Passenger 192 ends ID check at 59.70
+Passenger 199 starts ID check at 59.70
+Passenger 301 arrives at 59.80 with queue lengths: 20 19 20 20 20
+Passenger 302 arrives at 59.97 with queue lengths: 20 20 20 20 20
+
+Final Statistics:
+Average wait time: 10.12 minutes
+Maximum wait time: 20.94 minutes
+Minimum wait time: 0.00 minutes
+Total passengers processed: 201

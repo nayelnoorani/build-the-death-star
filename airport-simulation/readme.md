@@ -1,3 +1,17 @@
+In the airport simulation, I'm wondering how we should consider the waiting times of those passengers that arrived within simulation time, but did not complete both checks. Should we be considering those wait times in the average or not? If yes, how could we include their wait times?
+
+The simplified scenario that we analyzed for HW9 shows two general scenarios:
+- service capacity >= passenger arrival rate, indicated by steady queue lengths
+- passenger arrival > service rate, indicated by growing queue lengths
+
+In this scenario, given a steady number of service workers & a steady rate of passenger arrivals, the rate of change of the queue lengths indicates presence or lack of system stability and might be an adequate analysis. However, if we were to extend the analysis to a real-world scenario where both rates (service capacity and demand) fluctuate over the day, we can choose whether or not to increase service capacity in response to growing queue lengths.
+
+KPIs / visualizations:
+- Plot queue lengths over the day / week to show times of peak & trough 
+- KPI - flights missed / near missed - would require 
+
+
+
 ## Alternative mechanisms that could be used to stabilize the simulation:
 
 1. Adaptive Resource Adjustment:
